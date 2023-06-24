@@ -11,9 +11,11 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
+import ResumeCTA from '../components/ResumeCTA.astro';
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
+
 import Skills from '../components/Skills.astro';
 
 // Content Fetching: List four most recent work projects
@@ -30,8 +32,8 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, my name is Zurik Phillips"
+					tagline="I am a Creative Developer who is currently based in Dallas, Texas."
 					align="start"
 				>
 					<div class="roles">
@@ -42,7 +44,7 @@ const projects = (await getCollection('work'))
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Zurik Phillips smiling in a white shirt"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
@@ -99,6 +101,12 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
+			</section>
+			<section class="section with-background with-cta">
+					<CallToAction href="mailto:me@example.com">
+						My Resume
+						<Icon icon="paper-plane-tilt" size="1.2em" />
+					</CallToAction>
 			</section>
 		</main>
 
