@@ -33,13 +33,18 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Hello, my name is Zurik Phillips"
-					tagline="I am a Full-Stack Developer who is currently based in Dallas, Texas."
+					tagline="I am a Full-Stack Web Developer based in Dallas, Texas."
 					align="start"
 				>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Frontend & Backend Development</Pill>
 						<Pill><Icon icon="terminal" size="1.33em" /> Custom API's</Pill>
 						<Pill><Icon icon="game-controller" size="1.33em" /> Game Development</Pill>
+					</div>
+					<div class="roles">
+						<Pill><Icon icon="code" size="1.33em" />HTML, CSS, JavaScript</Pill>
+						<Pill><Icon icon="terminal" size="1.33em" />AWS, LAMP, vSphere</Pill>
+						<Pill><Icon icon="code" size="1.33em" />PHP, Angular, REACT</Pill>
 					</div>
 				</Hero>
 
@@ -117,6 +122,9 @@ const projects = (await getCollection('work'))
 </BaseLayout>
 
 <style>
+div.cta > a{
+	background: orange !important;
+}
 	.hero {
 		display: flex;
 		flex-direction: column;
