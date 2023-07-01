@@ -1,35 +1,27 @@
 ---
 title: The Richards Group
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img: /assets/trg-logo.png
+img_alt: TRG Logo
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Front End Web Developer
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - HTML
+  - CSS, SASS, LESS
+  - PHP, .NET, Ruby on Rails
+  - Virtualized Environments
 ---
 
-## Level-two heading
+# The Stand-Up
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+At TRG I worked as a front end web developer. It was an amazingly creative place to work but it was definately cut-throat, which I loved. We had Stairscase meetings at least once a month where everyone would gather in the center of the buildine around this enourmous staircase and gase onto the center of the building where the M.C. would rattle off the different awards, mentions and good tidings from the week before until building to the climax of Stan Richards getting the floor where he gave his speach and told everyone how important they are and thanked everyone for increasing value to the company.
+ 
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+>Where I learned Pixel Perfect Development
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+During my employment at TRG I was privlaged to work with some huge brands such as The HomeDepot, Chick-Fil-A, Pier1 Imports, The Salvation Army, SummersEve, Orkin, PediaLax, TGIFridays and so many more. Working for big brands such as those gave me the patients needed to moke minor adjustments many times over. The project management required everything to go through layer upon layer of creative revisions, legal revision and client revisions so be the time it the final release was pushed live, everything is absolutely perfect! Every moment counts and so it helped that this was an Agile shop. 
 
-### Level-three heading
+> Don't Repeat Yourself
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
-
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+Keep your code DRY..."Don't Repeat Yourself".
+I learned a lot about the principal of reducing repetition of information which is likely to change, replacing it with abstrsctions that are less likely to change, or using data normalization which avoids redundancy in the first place. 
