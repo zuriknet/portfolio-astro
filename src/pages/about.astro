@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
+import CallToAction from '../components/CallToAction.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Icon from '../components/Icon.astro';
 ---
 
 <BaseLayout title="About | Zurik Phillips" description="About Zurik Phillips Lorem Ipsum">
@@ -56,8 +57,17 @@ web developer in both frontend and backend environments. </p>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
 					<p>HTML, CSS / LESS / SCSS, Bootstrap, JavaScript / TypeScript, jQuery, Node.js, npm, Angular2, Astro, WordPress, PHP, Coffee, Laravel, Magento 2, Python, Django, Ruby on Rails, .NET, MySQL, MariaDB, Git, Netlify, vSphere, VBox, Docker, Jenkins, AWS, Azure</p>
+					<p>&nbsp;</p>
+					<header class="section-header gap-48 lg:gap-40" style="margin:0 auto; width:290px;">
+						<CallToAction href="https://docs.google.com/document/d/1HyG3eCW4WPWvtvUBn4-Hb5MmoOzXAh17ffc0DYKnYFA/edit?usp=sharing" target="_blank">
+							My Resume
+							<Icon icon="article" size="1.2em" />
+						</CallToAction>
+					</header>
 				</div>
+
 			</section>
+
 		</main>
 
 		<ContactCTA />
@@ -95,7 +105,7 @@ web developer in both frontend and backend environments. </p>
 	}
 
 	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
+		text-decoration: none;
 		text-underline-offset: 0.25em;
 		transition: text-decoration-color var(--theme-transition);
 	}
@@ -120,4 +130,5 @@ web developer in both frontend and backend environments. </p>
 			font-size: var(--text-lg);
 		}
 	}
+
 </style>
