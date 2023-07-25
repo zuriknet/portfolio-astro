@@ -22,9 +22,6 @@ import Skills from '../components/Skills.astro';
 const projects = (await getCollection('work'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
 
 <BaseLayout>
@@ -33,18 +30,16 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Hello, my name is Zurik Phillips"
-					tagline="I'm a Full-Stack Web Developer based in Dallas, Texas."
+					tagline="Full-Stack Web Developer based in Dallas, Texas"
 					align="start"
 				>
 					<div class="roles">
 						<Pill><Icon icon="hard-drives" size="1.33em" /> Frontend & Backend Development</Pill>
-						<Pill><Icon icon="circuitry" size="1.33em" /> Custom API's</Pill>
 						<Pill><Icon icon="clock-clockwise" size="1.33em" /> CI/CD Automation</Pill>
 					</div>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" />HTML, CSS, JavaScript</Pill>
-						<Pill><Icon icon="cloud-check" size="1.33em" />AWS, LAMP, vSphere</Pill>
-						<Pill><Icon icon="file-code" size="1.33em" />PHP, Angular, REACT</Pill>
+						<Pill><Icon icon="file-code" size="1.33em" />PHP, Angular, React</Pill>
 					</div>
 				</Hero>
 
@@ -86,27 +81,6 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['LifeHacker','Medium','The Next Web','awwwards.','TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-			</section>
 			<section class="section stack gap-48 lg:gap-40 with-background">
 				<header class="section-header stack gap-48 lg:gap-40">
 					<ResumeCTA 
