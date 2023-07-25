@@ -1,6 +1,6 @@
 # Portfolio of Zurik Phillips
 
-![portfolio](https://drive.google.com/file/d/1v0JgxywJqGO9wIeLc-Pz_R89BKrArX4l/view?usp=sharing)
+![portfolio](https://github.com/zuriknet/portfolio-astro/blob/main/public/assets/screenshot.png)
 
 ## 🧞 Commands
 
