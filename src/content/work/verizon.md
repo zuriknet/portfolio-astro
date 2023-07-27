@@ -13,7 +13,7 @@ tags:
 
 Designed and developed company Intranet, micro-sites, web services (rest api's), web applications and full-stack solutions for Verizon CEE organization. Setup Git repository and configured CI/CD. Configured vSphere LAMP environment and taught web development to two teams of interns.
 
-Help scrums to collect user stories from the team. Constructed flowchart based on stories collected. Built site information architecture and began planning the research and development phase while recording into Confluence & Jira. Completed construction of the draft build, moved to UAT and help testing. Once testing was complete, moved to PROD we launched the Intranet and tools. Began development on the additional web tools which made up the Intranet and began collecting data on the new tools. Collected fantastic results, improved productivity and reduced time spent searching for needed documents and support links.
+Held daily scrums to collect user stories from the team. Constructed flowchart based on stories collected. Built site information architecture and began planning the research and development phase while recording into Confluence & Jira. Completed construction of the draft build, moved to UAT and help testing. Once testing was complete, moved to PROD we launched the Intranet and tools. Began development on the additional web tools which made up the Intranet and began collecting data on the new tools. Collected fantastic results, improved productivity and reduced time spent searching for needed documents and support links.
 
 Later RedZone API became golden source for RedZone Data within Verion's internal app suite, consolidated and the application integrated into Verizon.com and other Verizon website.
 
