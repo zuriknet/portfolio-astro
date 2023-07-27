@@ -11,10 +11,14 @@ tags:
   - Custom API Development
 ---
 
-I developed an custom intranet solution as well micro web-services for each of the different services that the intranet provide. Designed and developed company acronym tool, find-it-fast tool RedZone Frontend and RedZone API. A custom api which drives a frontend and database which serves over 4,000 field engineers vluable, emergency data 24 hours and day, 7 days a week for all business and wireless equipment orders. 
+Designed and developed company Intranet, micro-sites, web services (rest api's), web applications and full-stack solutions for Verizon CEE organization. Setup Git repository and configured CI/CD. Configured vSphere LAMP environment and taught web development to two teams of interns.
 
-Later RedZone became golden source provider for RedZone Data throughout all applications within Verion so the data was consolidated and the application integrated into Verizon.com. 
+Help scrums to collect user stories from the team. Constructed flowchart based on stories collected. Built site information architecture and began planning the research and development phase while recording into Confluence & Jira. Completed construction of the draft build, moved to UAT and help testing. Once testing was complete, moved to PROD we launched the Intranet and tools. Began development on the additional web tools which made up the Intranet and began collecting data on the new tools. Collected fantastic results, improved productivity and reduced time spent searching for needed documents and support links.
 
-I also designed and created a QA Request Tool which gathered information from Field Engineers needed to spot check an ISPEC and provided the QA Engineers a method for recording their spot checks in a single place that records notes and keeps the reporter, the team and managers updated with what everyone is doing via email and an interactive web user interface. 
+Later RedZone API became golden source for RedZone Data within Verion's internal app suite, consolidated and the application integrated into Verizon.com and other Verizon website.
 
-During my tenure at Verizon I had the privalage to teach 2 groups of 2 high-school and 2 college level interns at Verizon where I instructed them how to create a web application with HTML, CSS, JavaScript / jQuery, PHP / Laravel and STRAPI Api's. Within 1 month the students helped me create a web form which can send the form data to a MySQL database and store the values inside of the database table and then renders that data onto a webpage. The students created their own presentations and delivered a presentation of a functional web applications to a large group of 20 Verizon employees. 
+Also designed and developed the QA Request Tool which was a custom full stack solution using Strapi on the backend and Next.js on the frontend. This tool collected form data from the frontend and stored the data into MySQL database. The backend API was created using Strpi API for ease of customization in the future. 
+
+During my tenure at Verizon I also had the privalage to teach 2 groups of 2 high-school and 2 college level interns web development and web application development with HTML, CSS, JavaScript / jQuery, Astro/JSX/TypeScript / PHP / Laravel and STRAPI Api's . Within 1 month the students helped me create a web form which can send the form data to a MySQL database and store the values inside of the database table and renders the data onto a webpage. The students created their own presentations and delivered a presentation of a functional web applications to a large group of 50 Verizon employees. 
+
+Verizon provided me with the tools that I needed to succeed and to create truly amazing thing
